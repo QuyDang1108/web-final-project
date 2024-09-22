@@ -18,13 +18,14 @@ jobs:
         uses: actions/checkout@v3
       - name: Run maven checkstyle
         run: mvn checkstyle:checkstyle
-
   compile:
     runs-on: ubuntu-latest
     name: Compile project
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
@@ -39,10 +40,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Build project
-    needs: [compile]  # Build sẽ chạy sau compile
+    needs: [compile]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
