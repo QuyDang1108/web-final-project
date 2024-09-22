@@ -5,7 +5,7 @@
 - 22120354 - Nguyễn Lê Anh Thư
 
 ## Description
-Description this project in here
+Description this project here in the future.
 
 ## Technologies
 - Java 17
