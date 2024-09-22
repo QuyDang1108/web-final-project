@@ -3,11 +3,11 @@ name: Web final project
 on:
   push:
     branches:
-      - main
+      - master
       - ci-cd
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   style:
