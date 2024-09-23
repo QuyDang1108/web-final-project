@@ -19,18 +19,8 @@ Description this project here in the future
 ## Setting Up and Running at Local
 
 ### Configuration
+View in the Wiki tab.
 
-Include setup steps for PostgreSQL database connection, and any other necessary configurations.
-
-1. Set up MySQL:
-
-    - Install MySQL on your system.
-    - Create a new MySQL database for your application.
-
-2. Set up environment variable:
-
-    - Clone file **.env.sample** to the new file with name: **.env**
-    - Update environment variable in file **.env**
 ## Run
 1. Remember checkstyle
 ```bash
