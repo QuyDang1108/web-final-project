@@ -19,5 +19,5 @@ description = "global allow list"
 paths = [
   '''target''',
   '''\.env.sample''',
-  '''\README.md'''
+  '''README\.md'''
 ]
