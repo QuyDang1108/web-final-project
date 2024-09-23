@@ -18,6 +18,6 @@ useDefault = true
 description = "global allow list"
 paths = [
   '''target''',
-  '''test\.application.yml''',
-  '''\.env.sample'''
+  '''\.env.sample''',
+  '''\README.md'''
 ]
