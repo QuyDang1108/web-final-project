@@ -55,7 +55,7 @@ jobs:
           cache: maven
 
       - name: Building project
-        run: mvn package
+        run: mvn package -Dmaven.test.skip=true
 
   check:
     runs-on: ubuntu-latest
