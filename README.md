@@ -17,8 +17,6 @@ Description this project here in the future
 - Sonar cloud for checking clean code.
 
 ## Setting Up and Running at Local
-
-### Configuration
 View in the Wiki tab.
 
 ## Run
