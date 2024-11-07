@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hcmus.csc13008</groupId>
-	<artifactId>web-final-project</artifactId>
+	<artifactId>sushi-restaurant</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>web-final-project</name>
-	<description>web-final-project</description>
+	<name>sushi-restaurant</name>
+	<description>sushi-restaurant</description>
 	<url/>
 	<licenses>
 		<license/>
