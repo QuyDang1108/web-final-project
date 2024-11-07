@@ -5,8 +5,11 @@
     <title>Login page</title>
 </head>
 <body>
+<th:block th:if="${error != null}">
+    <p th:value="${error}"></p>
+</th:block>
 <form th:method="POST" th:object="${login}" th:action="@{/auth/login}">
-    <input th:field="*{username}" id="username" type="text" class="field-custom" placeholder="Input user">
+    <input th:field="*{username}" id="username" type="text" class="field-custom" placeholder="Input account">
     <input th:field="*{password}" id="password-login" type="password" class="field-custom" placeholder="Input password">
     <button type="submit">Login</button>
 </form>

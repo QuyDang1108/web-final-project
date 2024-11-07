@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
     <meta charset="UTF-8">
     <title>Home page</title>
@@ -8,8 +8,21 @@
 <h1>
   you are login successful!
 </h1>
-<a th:href="@{/logout}">
-  Click to log out!
-</a>
+<h2>
+    information account
+</h2>
+<div sec:authorize="hasRole('ROLE_CUSTOMER')">Text visible to customer.</div>
+<div sec:authorize="hasRole('ROLE_ADMIN')">Text visible to admin.</div>
+<div sec:authorize="hasRole('ROLE_MANAGER')">Text visible to manager.</div>
+<div sec:authorize="isAuthenticated()">Text visible only to authenticated users.</div>
+<div sec:authorize="isAuthenticated()">
+    Username: <span sec:authentication="name"></span>
+</div>
+<div sec:authorize="isAuthenticated()">
+    Roles: <span sec:authentication="principal.authorities"></span>
+</div>
+<div sec:authorize="isAuthenticated()">
+    <a th:href="@{/logout}">Logout</a>
+</div>
 </body>
 </html>
