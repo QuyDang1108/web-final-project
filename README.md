@@ -1,19 +1,21 @@
-# FINAL PROJECT
-
-## Member
-- 22120302 - Đặng Quý
-- 22120354 - Nguyễn Lê Anh Thư
+# SUSHI RESTAURANTS
 
 ## Description
 Description this project here in the future
 
+## Member
+- 22120302 - Đặng Quý
+- 22120349 - Thi Kiều Thơ
+- 22120351 - Vũ Thị Kim Thoa
+- 22120354 - Nguyễn Lê Anh Thư
+- 22120365 - Nguyễn Thị Kiều Tiên
+
 ## Technologies
 - Java 17
 - Spring boot 3.3.4
-- MySQL
+- SQL SERVER
 - Thymeleaf
 - Bootstrap
-- Jquery
 - Sonar cloud for checking clean code.
 
 ## Setting Up and Running at Local
